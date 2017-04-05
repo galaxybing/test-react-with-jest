@@ -98,10 +98,10 @@ npm test -- -u -t="ColorPicker"
 
 - [如何使用 Jest 测试 React 组件](https://www.oschina.net/translate/test-react-components-jest?utm_source=tuicool&utm_medium=referral)
 	1. 如果你在使用其它框架对  Babel, React 和 JSX 进行测试时遇到过挫折，那么我绝对会推荐你尝试一下 Jest
-	2. 如果你发现现有的测试设置太慢了，我也会强烈推荐Jest
-	3. 内置的MOCK测试，SPY测试以及STUB测试
-	4. npm test -- --watch
-	5. 测试React组件
+	* 如果你发现现有的测试设置太慢了，我也会强烈推荐Jest
+	* 内置的MOCK测试，SPY测试以及STUB测试
+	* npm test -- --watch
+	* 测试React组件
 		* 测试渲染正确的数据
 		* 测试React的交互
 		* 快照输出
