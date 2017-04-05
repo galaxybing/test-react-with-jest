@@ -76,13 +76,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	"scripts": {
 	    "test-jest": "jest"
 	},
-```
+	```
+
 - Using with npm scripts #
+
 ```
 jest -u -t="ColorPicker"
 等同于
 npm test -- -u -t="ColorPicker"
 ```
+
 
 #### 关键字
 - describe
