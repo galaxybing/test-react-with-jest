@@ -40,17 +40,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ***
 
-#### [jest](http://facebook.github.io/jest/docs/using-matchers.html#content)
+## [jest](http://facebook.github.io/jest/docs/using-matchers.html#content)
 - 功能性测试
 - 非功能性的问题：
-	1. 兼容性、
-	1. 性能、
-	1. 安全性
+1. 兼容性、
+1. 性能、
+1. 安全性
 - [探索性测试](http://blog.csdn.net/ant_ren/article/details/8230290)
 
 ***
 
-#### 特点：
+## 特点：
 - 默认使用Jasmine断言
 - 模块化的
 - 可扩展的
@@ -87,7 +87,7 @@ npm test -- -u -t="ColorPicker"
 ```
 
 
-#### 关键字
+## 细节
 - describe
 - expect
 - toBe 对于原始类型，如字符串和数字
@@ -95,7 +95,6 @@ npm test -- -u -t="ColorPicker"
 - jest中的 test 方法只是 it 的一个别名
 - jest.fn() 监听方法，是无需关注其实现，只需考虑其调用时机及方式的方法
 - toMatchSnapshot
-
 - [如何使用 Jest 测试 React 组件](https://www.oschina.net/translate/test-react-components-jest?utm_source=tuicool&utm_medium=referral)
 	- 如果你在使用其它框架对  Babel, React 和 JSX 进行测试时遇到过挫折，那么我绝对会推荐你尝试一下 Jest
 	* 如果你发现现有的测试设置太慢了，我也会强烈推荐Jest
